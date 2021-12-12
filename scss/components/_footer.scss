@@ -1,0 +1,39 @@
+@import "../base/variables";
+@import "../base/extends";
+@import "../base/mixins";
+
+/* footer */
+.container-footer-index{
+    background-color: $bg-color;
+}
+
+.redes-one{
+    @extend %iconos;
+}
+
+.redes-two{
+    @extend %iconos;
+    justify-content: end;
+}
+
+.instagram{
+    @include tamaño(32%)
+}
+
+.whatsapp, .correo{
+    @include tamaño(25%)
+}
+
+.container-footer-contacto{
+    background-color: $bg-color;
+    .container-footer{
+        padding-bottom: 5px;
+    }
+}
+
+.logoFixed{
+    position: fixed;
+    bottom: 0%;
+    right: 1%;
+}
+/* fin footer */

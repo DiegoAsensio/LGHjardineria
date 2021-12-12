@@ -1,0 +1,23 @@
+@import "../base/variables";
+@import "../base/mixins";
+
+/* main */
+.zona-central-index{
+    background-color: $bg-color;
+}
+
+.mainGaleria{
+    background-color: $bg-color;
+    display: flex;
+    justify-content: center;
+}
+
+.mainServicios{
+    background-color: $bg-color;
+}
+
+.mainContacto{
+    background-color: $bg-color;
+    padding: 100px 0 100px 0;
+}
+/* fin main */
