@@ -3,15 +3,15 @@
 @import "../base/mixins";
 
 /* footer */
-.container-footer-index{
+.containerFooterIndex{
     background-color: $bg-color;
 }
 
-.redes-one{
+.redesOne{
     @extend %iconos;
 }
 
-.redes-two{
+.redestwo{
     @extend %iconos;
     justify-content: end;
 }
@@ -24,7 +24,7 @@
     @include tamaño(25%)
 }
 
-.container-footer-contacto{
+.containerFooterContacto{
     background-color: $bg-color;
     .container-footer{
         padding-bottom: 73px;

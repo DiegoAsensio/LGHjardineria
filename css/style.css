@@ -10,7 +10,7 @@ html {
 }
 
 /* variables*/
-.redes-two, .redes-one {
+.redestwo, .redesOne {
   display: flex;
   align-items: center;
 }
@@ -38,7 +38,7 @@ header {
 /* fin header */
 /* variables*/
 /* main */
-.zona-central-index {
+.zonaCentralIndex {
   background-color: black;
 }
 
@@ -59,17 +59,17 @@ header {
 
 /* fin main */
 /* variables*/
-.redes-two, .redes-one {
+.redestwo, .redesOne {
   display: flex;
   align-items: center;
 }
 
 /* footer */
-.container-footer-index {
+.containerFooterIndex {
   background-color: black;
 }
 
-.redes-two {
+.redestwo {
   justify-content: end;
 }
 
@@ -81,10 +81,10 @@ header {
   width: 25%;
 }
 
-.container-footer-contacto {
+.containerFooterContacto {
   background-color: black;
 }
-.container-footer-contacto .container-footer {
+.containerFooterContacto .container-footer {
   padding-bottom: 73px;
 }
 
